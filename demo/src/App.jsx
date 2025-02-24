@@ -1,8 +1,16 @@
  import myimg from './thailand.jpg'
+ import  './App.css'
 
 function App() {
   
 let name = "chhava"
+let age = 18
+
+  let st = {
+    color: "yellow",
+    backgroundColor:" black",
+    padding:"20px"
+  }
   return (
     <>
     <h1> hello everyone </h1>
@@ -14,7 +22,18 @@ let name = "chhava"
 
         <img src={myimg} alt="" height="500px"/>
 
-        <h1>my name is {name}</h1>
+        <h1 style={{backgroundColor:"red ", color:"white" }}>my name is {name}</h1>
+        <h1 style={st}>my Age  {age}</h1>
+
+
+        <h1 className='excss'> use external css</h1> 
+
+        <nav className='navbar'>
+      <h1>logo</h1>
+      <h1> contact</h1>
+      <h1> blog</h1>
+      <h1> about</h1>
+        </nav>
    </>
     )
 }

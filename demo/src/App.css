@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+ .excss{
+  color: aqua;
+  background-color: rgb(15, 10, 3);
+  padding: 20px;
+ }
+
+ .navbar{
+
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+  color: black;
+  
+ }
