@@ -11,4 +11,16 @@ const  About = () => {
     )
 }
 
-export default About
+const  Namedexport = () => {
+
+    return(
+
+        <>
+        <h1>this is Namedexport </h1>
+        
+        
+        </>
+    )
+}
+
+export {Namedexport,About}
