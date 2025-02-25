@@ -1,5 +1,6 @@
  import myimg from './thailand.jpg'
  import  './App.css'
+ import About from './About.jsx'
 
 function App() {
   
@@ -34,6 +35,8 @@ let age = 18
       <h1> blog</h1>
       <h1> about</h1>
         </nav>
+
+        <About/>
    </>
     )
 }
