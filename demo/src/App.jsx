@@ -1,6 +1,6 @@
  import myimg from './thailand.jpg'
  import  './App.css'
- import { About,Namedexport } from './About.jsx'
+ import { About as Ab,Namedexport as Nde } from './About.jsx'
 import Contact from './Contact.jsx'
 import Gallery from './Gallery.jsx'
 import Services from './Services.jsx'
@@ -39,8 +39,8 @@ let age = 18
       <h1> about</h1>
         </nav>
 
-        <About/>
-        <Namedexport/>
+        <Ab/>
+        <Nde/>
         <Contact/>
         <Gallery/>
         <Services/>
