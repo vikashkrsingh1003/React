@@ -1,5 +1,5 @@
 
-
+ import Event  from "./Event"
 function App() {
   let name = " vilash Singh"
   // let age = prompt("enter your age ")
@@ -29,6 +29,8 @@ function App() {
       <h1> THird index is : {arr[2]}</h1>
       <h1> four index is : {arr[3]}</h1>
       <h1> five index is : {arr[4]}</h1>
+
+      <Event/>
     </>
   )
 }
