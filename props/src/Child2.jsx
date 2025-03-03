@@ -1,10 +1,10 @@
-import Child3 from "./Child3.jsx"
+import Child3 from "./child3"
 
-function Child2 (age){
+function Child2 (props){
     return (
         <>
-        <h1>My age is {age.age} </h1>
-        <Child3  age={age.age} />
+       <h1>my age {props.age}</h1>
+        <Child3  town="patna" />
         </>
     )
 }

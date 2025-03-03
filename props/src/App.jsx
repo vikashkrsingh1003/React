@@ -6,6 +6,7 @@ function App () {
   return (
   <>
    <Child1 name="vikash Singh"/>
+   <Child1 contact="8789841693"/>
  
   </>
 )

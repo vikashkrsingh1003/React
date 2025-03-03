@@ -1,8 +1,12 @@
 
-function Child3 (age){
+
+function Child3 ({town},{}){
+   // let {town} = props
     return (
         <>
-        <h1>My age is {age.age}</h1>
+        <h1>My hometown {town}</h1>
+      
+      
         </>
     )
 }
