@@ -42,7 +42,6 @@
 }
 
 
-  body{
-    height: 200px;
-    background-color: antiquewhite;
+  h1{
+    text-align: center;
   }

@@ -30,7 +30,7 @@ function App() {
     <button onClick={() => Setcontact(620799)}>Change contact </button>
     <button onClick={() => Setemail("vikash@12334")}>Change email </button> <br /><br />
 
-    <div style={{height:"200px", backgroundColor:color}}>
+    <div style={{height:"100vh", backgroundColor:color}}>
      <h1>Color changing button </h1>
     <button onClick={() => Setcolor('yellow') }> yellow</button><br /><br />
     <button onClick={() => Setcolor('red') }> red</button><br /><br />
