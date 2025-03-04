@@ -36,6 +36,8 @@ function App() {
     <button onClick={() => Setcolor('red') }> red</button><br /><br />
     <button onClick={() => Setcolor('lightblue') }> lightblue</button><br /><br />
     <button onClick={() => Setcolor('black') }> black</button><br /><br />
+    <button onClick={() => Setcolor('green') }> green</button><br /><br />
+    <button onClick={() => Setcolor('black') }> black</button><br /><br />
     </div>
   
     </>
