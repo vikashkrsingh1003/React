@@ -1,12 +1,15 @@
 import { useState } from "react"
 
 
+
 function App() {
   
   let [name , Setname] = useState("Vikash Singh")
   let [age, Setage] = useState(22)
   let [contact , Setcontact] = useState(8789841693)
   let [email, Setemail] = useState("vksingh10620034@gmail.com")
+  let [color, Setcolor] = useState(" ")
+
  
   function fun(){
     Setname("neha Singh")
@@ -25,7 +28,16 @@ function App() {
     <button onClick={fun}>Change name </button>
     <button onClick={() => Setage(25)}>Change age </button>
     <button onClick={() => Setcontact(620799)}>Change contact </button>
-    <button onClick={() => Setemail("vikash@12334")}>Change email </button>
+    <button onClick={() => Setemail("vikash@12334")}>Change email </button> <br /><br />
+
+    <div style={{height:"200px", backgroundColor:color}}>
+     <h1>Color changing button </h1>
+    <button onClick={() => Setcolor('yellow') }> yellow</button><br /><br />
+    <button onClick={() => Setcolor('red') }> red</button><br /><br />
+    <button onClick={() => Setcolor('lightblue') }> lightblue</button><br /><br />
+    <button onClick={() => Setcolor('black') }> black</button><br /><br />
+    </div>
+  
     </>
   )
 }
