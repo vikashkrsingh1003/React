@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import About from "./About.jsx"
 
 
 function App() {
@@ -39,6 +39,7 @@ function App() {
     <button onClick={() => Setcolor('green') }> green</button><br /><br />
     <button onClick={() => Setcolor('black') }> black</button><br /><br />
     </div>
+   <About/>
   
     </>
   )
