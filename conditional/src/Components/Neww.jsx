@@ -9,7 +9,10 @@ function Neww(){
         {st ?  <h1> Welcome </h1> : " " }
 
         <button onClick={()=> setSt(false)}>Hide</button>
-        <button onClick={()=> setSt(true)}>Show</button>
+        <button onClick={()=> setSt(true)}>Show</button> <br /><br />
+
+        {!st ?   <button onClick={()=> setSt(!st)}> show </button>:   <button onClick={()=> setSt(!st)}> hide </button> }
+
         </>
     )
 }
