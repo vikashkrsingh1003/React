@@ -10,10 +10,11 @@ function Navbar(){
 
   <h1>LOGO </h1> 
   <ul>
-    <li> <Link to="/home"> HOme</LInk></li>
-    <li> <Link to="/About"> About</LInk></li>
+    <li> <Link to="/home"> HOme</Link></li>
+    <li> <Link to="/About"> About</Link></li>
 
-    <li>Services</li> 
+    <li> <Link to= "/Services"> Services</Link></li> 
+    <li> <Link to= "/Contact">Contact</Link></li> 
   </ul>
         </nav>
         
