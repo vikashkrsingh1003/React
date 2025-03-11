@@ -7,6 +7,7 @@
 
 Ques::==> 
 1. what is virtual DOM ?
+
 2. differance b/w virtual Dom and real Dom ?
 
 hooks--> special types of function provide  by react 
