@@ -35,7 +35,40 @@ function App() {
       </Container>
     </Navbar>
 
-   
+    <Container> 
+  
+       <Row> 
+    
+       <Col>
+        <h1>VIkash</h1>
+       </Col>
+
+       <Col>
+        <h1>Singh</h1>
+       </Col>
+
+
+
+       </Row>
+
+
+
+    </Container>
+
+    <Container> 
+    <Col>
+  <Row> 
+
+   <h1>VIkash</h1>
+   </Row>
+    <Row> 
+   <h1>singh</h1>
+   </Row>
+  </Col>
+
+</Container>
+
+
     </>
   );
 }
