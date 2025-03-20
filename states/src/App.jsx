@@ -48,14 +48,19 @@
 // export default App
 
 
-  import { useEffect } from "react";
+  import { useState } from "react";
+import { useEffect } from "react";
 
     function App(){
-      useEffect(() => {alert("useEffect")});
+      let[ value , Setvalue ] = useState(0)
+
+      useEffect(() => {alert("useEffect")},[ ]);
 
       return(
         <>
+        <h1>{value}</h1>
         <h1> UseEffect Hooks</h1>
+        <button onClick={() => Setvalue(value+1)}>Inc</button>
         </>
       )
     }
