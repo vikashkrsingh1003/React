@@ -60,7 +60,8 @@ import { useEffect } from "react";
         <>
         <h1>{value}</h1>
         <h1> UseEffect Hooks</h1>
-        <button onClick={() => Setvalue(value+1)}>Inc</button>
+        <button onClick={() => Setvalue(value+1)}>Inc</button> <br /> <br />
+        <button onClick={() => Setvalue(value-1)}>Dec</button>
         </>
       )
     }
