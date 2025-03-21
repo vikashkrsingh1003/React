@@ -2,8 +2,10 @@ import { createContext } from "react"
 
 import child1 from "./Child1"
 
+import Child3 from "./Child3"
+
 let appdata = createContext()
-  let name = "vikash Singh"
+ let name = "vikash Singh"
 
 function App() {
  
@@ -15,7 +17,8 @@ function App() {
 
      <appdata.Provider value={name}>
 
-      <child1/>
+      <Child1/>
+      
      </appdata.Provider>
 
 
