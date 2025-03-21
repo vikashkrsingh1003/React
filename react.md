@@ -12,3 +12,6 @@ Ques::==>
 
 hooks--> special types of function provide  by react 
 
+Context api main : - create 
+                    provider
+                    consumer
