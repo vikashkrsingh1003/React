@@ -4,12 +4,16 @@ import './index.css'
 import App from './App.jsx'
 
 let sendData = createContext()
-let name ="Globle data "
+let ob ={
+     name:"vikash singh",
+     age: 20 , 
+     contact : 8789
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-    <sendData.Provider value={name}>
+    <sendData.Provider value={ob}>
     <App />
     </sendData.Provider>
   </StrictMode>,
