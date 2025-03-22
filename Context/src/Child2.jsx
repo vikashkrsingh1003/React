@@ -1,5 +1,6 @@
 import React from 'react'
 import { appdata } from './App'
+import Child3 from './Child3'
 
 const Child2 = () => {
   return (
@@ -15,6 +16,7 @@ const Child2 = () => {
 
 
    </appdata.Consumer>
+   <Child3/>
    
    </>
   )

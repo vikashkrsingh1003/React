@@ -1,22 +1,22 @@
-// import React from 'react'
-// import { newdata } from './Child3'
+import React from 'react'
+import { newdata } from './Child3'
 
-// const Child5 = () => {
-//   return (
-//    <>
-//    <h1> This is a child5</h1>
+const Child5 = () => {
+  return (
+   <>
+   <h1> This is a child5</h1>
 
-//    <newdata.Consumer>
+   <newdata.Consumer>
     
-//     {
-//         (data) => {return  <h1>{data}</h1>}
-//     }
+    {
+        (data) => {return  <h1>{data}</h1>}
+    }
 
 
-//    </newdata.Consumer>
+   </newdata.Consumer>
    
-//    </>
-//   )
-// }
+   </>
+  )
+}
 
-// export default Child5
+export default Child5
