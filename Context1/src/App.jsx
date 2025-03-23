@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1> hello globle data</h1>
+      <h1> this globle data</h1>
       <About/>
     </>
   )
