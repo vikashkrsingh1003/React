@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './App.css'
 
+import Form from './Form';
+
 function App() {
 
   let [frmdata, setFrmdata] = useState({
@@ -48,13 +50,15 @@ function App() {
 
   return (
     <>
+
+     <Form/>
       <h1 className='head1'>Form</h1>
       <h1>My name is </h1>
       {/* <h1>My age is : {frmdata2}</h1>
     <h1>My city name is : {frmdata3} </h1>
     <h1>My clg  name is : {frmdata4} </h1>
     <h1>My mobile no is: {frmdata5} </h1> */}
-    
+
       <form action="" onSubmit={finalsubmit}>
         <label htmlFor="">Name : </label>
         <input type="text" name='username' onChange={InputValue} /> <br></br> <br></br>
