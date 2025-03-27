@@ -28,19 +28,19 @@ const Form = () => {
 <form action="" onSubmit={finalform}>
 
 <label htmlFor="" > fname </label>
-<input type="text" name='fname'  onChange={setvalue} > </input>
+<input type="text" name='fname'  onChange={setvalue} />
 
 <label htmlFor="" > lname </label>
-<input type="text" name='lname' onChange={setvalue}  > </input>
+<input type="text" name='lname' onChange={setvalue}  /> 
 
 <label htmlFor="" > Age </label>
-<input type="text" name='age' onChange={setvalue}  > </input>
+<input type="text" name='age' onChange={setvalue}  /> 
 
 <label htmlFor="" > COntact </label>
-<input type="number" name='contact'onChange={setvalue}  > </input>
+<input type="number" name='contact'onChange={setvalue}  /> 
 
 <label htmlFor="" > Add </label>
-<input type="text" name='add' onChange={setvalue}  > </input>
+<input type="text" name='add' onChange={setvalue}  /> 
 
 <input type='submit' value="Submit" />
 

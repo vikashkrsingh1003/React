@@ -46,6 +46,8 @@ function App() {
     e.preventDefault()
     console.log(frmdata);
 
+    localStorage.setItem("userdata",JSON.stringify(frmdata))
+
   }
 
   return (
