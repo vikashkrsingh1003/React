@@ -6,7 +6,7 @@ function Child1 (props){
     return (
         <>
         <h1>My name is {name}</h1>
-        <Child2 age="21" />
+        <Child2 age="28" />
         <h1> contact {props.contact}</h1>
       
         </>
